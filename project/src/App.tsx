@@ -3,24 +3,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { AuthProvider } from './contexts/AuthContext';
 import { NotificationProvider } from './contexts/NotificationContext';
 import ProtectedRoute from './components/ProtectedRoute';
-import Layout from './components/Layout';
 import OfflineIndicator from './components/OfflineIndicator';
-import FloatingActionButton from './components/FloatingActionButton';
-import Dashboard from './pages/Dashboard';
-import Customers from './pages/Customers';
-import Quotes from './pages/Quotes';
-import Orders from './pages/Orders';
-import Calendar from './pages/Calendar';
-import Invoices from './pages/Invoices';
-import Team from './pages/Team';
-import Settings from './pages/Settings';
-import Analytics from './pages/Analytics';
-import Communications from './pages/Communications';
 import QuoteAcceptance from './pages/QuoteAcceptance';
-import Payroll from './pages/Payroll';
-import Documents from './pages/Documents';
-import Reports from './pages/Reports';
-import AppRoutes from './components/AppRoutes'; // Import the new AppRoutes component
+import AppRoutes from './components/AppRoutes';
 
 function App() {
   return (
